@@ -1,0 +1,13 @@
+
+body{
+    background-color:green;
+}
+h1{
+    border-style:dashed;
+    border-color:red;
+}
+p{
+    border-style:dotted;
+    border-color:pink;
+    border-width:5px;
+}

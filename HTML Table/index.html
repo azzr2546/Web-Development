@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Table</title>
+</head>
+<body>
+    <table border="2" bgcolor=pink>
+        <tr bgcolor=red>
+            <th COLSPAN="4">I AM TABLE 1</th>
+        </tr>
+        <tr>
+            <td>first</td>
+            <td>second</td>
+            <td rowspan="2">
+                <table id="t2" border="2">
+                    <tr>
+                        <td colspan="2">i am table 2</td>
+                    </tr>
+                    <tr>
+                        <td>………</td>
+                        <td>pakistan</td>
+                    </tr> 
+                </table>
+            </td>
+            <td>hello</td>
+        </tr>
+        
+        <tr>
+            <td>third</td>
+            <td>fourth</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>fifth</td>
+            <td>sixth</td>
+            <td>blank</td>
+            <td rowspan="2">i am merged cells </td>
+        </tr>
+        <tr>
+            <td>seventh</td>
+            <td>eight</td>
+            <td>blank</td>
+    
+</body>
+</html>

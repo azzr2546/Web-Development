@@ -1,0 +1,15 @@
+body{
+    margin-left: 35%;
+    margin-top: 10%;
+
+}
+
+
+tr{
+    width: 70px;
+    height: 55px;
+    margin-left: 40%;
+    font-size: larger;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
